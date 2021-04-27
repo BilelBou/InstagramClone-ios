@@ -5,7 +5,13 @@ target 'InstagramClone' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for InstagramClone
+  pod 'SDWebImage'
+  # Firebase
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 
   target 'InstagramCloneTests' do
     inherit! :search_paths

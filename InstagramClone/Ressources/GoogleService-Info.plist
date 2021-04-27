@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>640790510436-h71e4t3rn1q90gi00c9r5ue934ksrpg1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.640790510436-h71e4t3rn1q90gi00c9r5ue934ksrpg1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCL_FJo_R35Hyt88867g4rOtHO9u-CdaS8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>640790510436</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Bilel-Bouricha.InstagramClone</string>
+	<key>PROJECT_ID</key>
+	<string>instagram-d92a8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instagram-d92a8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:640790510436:ios:d02974900965b732c4d871</string>
+</dict>
+</plist>
