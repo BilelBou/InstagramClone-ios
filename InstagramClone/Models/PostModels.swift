@@ -7,8 +7,9 @@
 
 import Foundation
 
-public enum UserPostType {
-    case photo, video
+public enum UserPostType: String {
+    case photo = "Photo"
+    case video = "Video"
 }
 /// Represent an user post
 public struct UserPost {
