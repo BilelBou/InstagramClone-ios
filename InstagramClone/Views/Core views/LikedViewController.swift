@@ -56,27 +56,13 @@ class LikedViewController: UIViewController {
     }
     
     private func fetchNotifications() {
+        let user = User(username: "Joe", name: (first: "", last: ""), birthDate: Date(), bio: "", gender: .male, counts: UserCount(followers: 1, following: 1, posts: 1), joinDate: Date(), profilePhoto: URL(string: "https://google.com")!)
         for x in 0...100 {
-            let post = UserPost(id: "", postType: .photo, thumbnailImage: URL(string: "https://google.com")!, postURL:  URL(string: "https://google.com")!, caption: nil, likeCount: [], comments: [], createdDate: Date(), taggedUsers: [])
-            let model = UserNotification(type: x % 2 == 0 ?.like(post: post) : .follow(state: .following), text: "Hello World!", user: User(username: "Joe", name: (first: "", last: ""), birthDate: Date(), bio: "", gender: .male, counts: UserCount(followers: 1, following: 1, posts: 1), joinDate: Date(), profilePhoto: URL(string: "https://google.com")!))
+            let post = UserPost(id: "", postType: .photo, thumbnailImage: URL(string: "https://google.com")!, postURL:  URL(string: "https://google.com")!, caption: nil, likeCount: [], comments: [], createdDate: Date(), taggedUsers: [], owner: user)
+            let model = UserNotification(type: x % 2 == 0 ?.like(post: post) : .follow(state: .following), text: "Hello World!", user: user)
             models.append(model)
         }
     }
-    
-//    private func configureStyleAndLayout() {
-//        view.addSubview(noNotificationsView)
-//        view.addSubview(tableView)
-//        view.addSubview(spinner)
-//        spinner.startAnimating()
-//
-//        NSLayoutConstraint.activate([
-//            tableView.topAnchor.constraint(equalTo: view.topAnchor),
-//            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-//            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-//            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-//        ])
-//    }
-
 }
 
 extension LikedViewController: UITableViewDelegate, UITableViewDataSource {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RegisterViewController: Controller {
+class RegisterViewController: UIViewController {
     private lazy var usernameField = UITextField()..{
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.delegate = self
@@ -71,7 +71,6 @@ class RegisterViewController: Controller {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.systemBackground
-        updateNavigationBar(NavTitleStyle.title("Create Account"), titleColor: Color.black, leftButton: .back, leftColor: Color.black)
         configureStyleAndLayout()
     }
     
@@ -130,10 +129,6 @@ class RegisterViewController: Controller {
             }
         }
 
-    }
-    
-    override func didTapBack() {
-        dismiss(animated: true, completion: nil)
     }
 }
 

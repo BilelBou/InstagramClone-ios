@@ -28,7 +28,6 @@
 		244ED13826342B6A00614AF8 /* RoobertSemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 244ED13426342B6A00614AF8 /* RoobertSemiBold.woff */; };
 		244ED13926342B6A00614AF8 /* Icon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 244ED13526342B6A00614AF8 /* Icon.ttf */; };
 		244ED13A26342B6A00614AF8 /* RoobertRegular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 244ED13626342B6A00614AF8 /* RoobertRegular.woff */; };
-		244ED14226344FEF00614AF8 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED14126344FEF00614AF8 /* Controller.swift */; };
 		244ED1472634595800614AF8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED1462634595800614AF8 /* Extensions.swift */; };
 		244ED14D2635C6AB00614AF8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED14C2635C6AB00614AF8 /* TabBarViewController.swift */; };
 		244ED1552635CDD500614AF8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED1542635CDD500614AF8 /* SearchViewController.swift */; };
@@ -36,7 +35,7 @@
 		244ED15F2635CE9500614AF8 /* LikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED15E2635CE9500614AF8 /* LikedViewController.swift */; };
 		244ED1652635CEC200614AF8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED1642635CEC200614AF8 /* CameraViewController.swift */; };
 		244ED16E2635E50E00614AF8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED16D2635E50E00614AF8 /* SettingsViewController.swift */; };
-		244ED1772635F7C000614AF8 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED1762635F7C000614AF8 /* FeedTableViewCell.swift */; };
+		244ED1772635F7C000614AF8 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244ED1762635F7C000614AF8 /* IGFeedPostTableViewCell.swift */; };
 		247BE2F3263623A100B118A7 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE2F2263623A100B118A7 /* EditProfileViewController.swift */; };
 		247BE2FB2636E46D00B118A7 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE2FA2636E46D00B118A7 /* FormTableViewCell.swift */; };
 		247BE3012636F14F00B118A7 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE3002636F14F00B118A7 /* PhotoCollectionViewCell.swift */; };
@@ -51,6 +50,9 @@
 		247BE35E2638317600B118A7 /* NotificationFollowEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE35D2638317600B118A7 /* NotificationFollowEventTableViewCell.swift */; };
 		247BE3632638318400B118A7 /* NotificationLikeEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE3622638318400B118A7 /* NotificationLikeEventTableViewCell.swift */; };
 		247BE3682638371100B118A7 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247BE3672638371100B118A7 /* NotificationModel.swift */; };
+		249DE1B92639CB90001D2492 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249DE1B82639CB90001D2492 /* IGFeedPostHeaderTableViewCell.swift */; };
+		249DE1BE2639CBA4001D2492 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249DE1BD2639CBA4001D2492 /* IGFeedPostActionsTableViewCell.swift */; };
+		249DE1C32639CBB4001D2492 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249DE1C22639CBB4001D2492 /* IGFeedPostGeneralTableViewCell.swift */; };
 		473BD887A606C09D38964F62 /* Pods_InstagramCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1146D1F0489DD05E68638C2 /* Pods_InstagramCloneTests.framework */; };
 		51756D2E3F8AE84BB5495DFB /* Pods_InstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CDA89D990EAF2C353DD1BC /* Pods_InstagramClone.framework */; };
 /* End PBXBuildFile section */
@@ -101,7 +103,6 @@
 		244ED13426342B6A00614AF8 /* RoobertSemiBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = RoobertSemiBold.woff; sourceTree = "<group>"; };
 		244ED13526342B6A00614AF8 /* Icon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icon.ttf; sourceTree = "<group>"; };
 		244ED13626342B6A00614AF8 /* RoobertRegular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = RoobertRegular.woff; sourceTree = "<group>"; };
-		244ED14126344FEF00614AF8 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		244ED1462634595800614AF8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		244ED14C2635C6AB00614AF8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		244ED1542635CDD500614AF8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +110,7 @@
 		244ED15E2635CE9500614AF8 /* LikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedViewController.swift; sourceTree = "<group>"; };
 		244ED1642635CEC200614AF8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		244ED16D2635E50E00614AF8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		244ED1762635F7C000614AF8 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		244ED1762635F7C000614AF8 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
 		247BE2F2263623A100B118A7 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		247BE2FA2636E46D00B118A7 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		247BE3002636F14F00B118A7 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -124,6 +125,9 @@
 		247BE35D2638317600B118A7 /* NotificationFollowEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFollowEventTableViewCell.swift; sourceTree = "<group>"; };
 		247BE3622638318400B118A7 /* NotificationLikeEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationLikeEventTableViewCell.swift; sourceTree = "<group>"; };
 		247BE3672638371100B118A7 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		249DE1B82639CB90001D2492 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		249DE1BD2639CBA4001D2492 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		249DE1C22639CBB4001D2492 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
 		3D059C4376AAFC4F40DD8B13 /* Pods_InstagramClone_InstagramCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone_InstagramCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9ECE532B768C28A96B103C /* Pods-InstagramCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-InstagramCloneTests/Pods-InstagramCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4803137D6EF85EFAC53C1AC3 /* Pods-InstagramClone-InstagramCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone-InstagramCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-InstagramClone-InstagramCloneUITests/Pods-InstagramClone-InstagramCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -268,7 +272,6 @@
 				244ED0BF2634204800614AF8 /* Stylesheet.swift */,
 				244ED0C4263420E300614AF8 /* UIColor.swift */,
 				244ED0E2263425A500614AF8 /* Standard.swift */,
-				244ED14126344FEF00614AF8 /* Controller.swift */,
 				244ED1462634595800614AF8 /* Extensions.swift */,
 			);
 			path = CommonUI;
@@ -350,7 +353,10 @@
 		244ED17E2635F96100614AF8 /* Home Feed & Post */ = {
 			isa = PBXGroup;
 			children = (
-				244ED1762635F7C000614AF8 /* FeedTableViewCell.swift */,
+				244ED1762635F7C000614AF8 /* IGFeedPostTableViewCell.swift */,
+				249DE1B82639CB90001D2492 /* IGFeedPostHeaderTableViewCell.swift */,
+				249DE1BD2639CBA4001D2492 /* IGFeedPostActionsTableViewCell.swift */,
+				249DE1C22639CBB4001D2492 /* IGFeedPostGeneralTableViewCell.swift */,
 			);
 			path = "Home Feed & Post";
 			sourceTree = "<group>";
@@ -641,7 +647,6 @@
 				244ED0C5263420E300614AF8 /* UIColor.swift in Sources */,
 				247BE35E2638317600B118A7 /* NotificationFollowEventTableViewCell.swift in Sources */,
 				244ED12E2634275100614AF8 /* StorageManager.swift in Sources */,
-				244ED14226344FEF00614AF8 /* Controller.swift in Sources */,
 				244ED16E2635E50E00614AF8 /* SettingsViewController.swift in Sources */,
 				244ED14D2635C6AB00614AF8 /* TabBarViewController.swift in Sources */,
 				244ED15A2635CE5600614AF8 /* ProfileViewController.swift in Sources */,
@@ -649,7 +654,8 @@
 				247BE30E2636F1A400B118A7 /* ProfileTabsCollectionReusableView.swift in Sources */,
 				244ED0E3263425A500614AF8 /* Standard.swift in Sources */,
 				247BE3012636F14F00B118A7 /* PhotoCollectionViewCell.swift in Sources */,
-				244ED1772635F7C000614AF8 /* FeedTableViewCell.swift in Sources */,
+				249DE1B92639CB90001D2492 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
+				244ED1772635F7C000614AF8 /* IGFeedPostTableViewCell.swift in Sources */,
 				2403FBAA263351E400C9018B /* RegisterViewController.swift in Sources */,
 				247BE35326374ABA00B118A7 /* UserFollowTableViewCell.swift in Sources */,
 				244ED0C02634204800614AF8 /* Stylesheet.swift in Sources */,
@@ -660,6 +666,7 @@
 				247BE3632638318400B118A7 /* NotificationLikeEventTableViewCell.swift in Sources */,
 				244ED1472634595800614AF8 /* Extensions.swift in Sources */,
 				244ED0CC2634224F00614AF8 /* HomeViewController.swift in Sources */,
+				249DE1C32639CBB4001D2492 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				247BE2FB2636E46D00B118A7 /* FormTableViewCell.swift in Sources */,
 				2403FBA8263351E400C9018B /* SceneDelegate.swift in Sources */,
 				244ED0E9263425DB00614AF8 /* DatabaseManager.swift in Sources */,
@@ -667,6 +674,7 @@
 				244ED10E2634268400614AF8 /* AuthManager.swift in Sources */,
 				244ED1652635CEC200614AF8 /* CameraViewController.swift in Sources */,
 				247BE2F3263623A100B118A7 /* EditProfileViewController.swift in Sources */,
+				249DE1BE2639CBA4001D2492 /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				247BE3682638371100B118A7 /* NotificationModel.swift in Sources */,
 				247BE3302636FC1000B118A7 /* PostModels.swift in Sources */,
 			);

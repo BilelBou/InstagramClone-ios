@@ -9,7 +9,7 @@ import UIKit
 
 class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
     
-    let homeVC = HomeViewController()
+    let homeVC = UINavigationController(rootViewController: HomeViewController())
     let searchVC = SearchViewController()
     let cameraVC = CameraViewController()
     let likedVC = UINavigationController(rootViewController: LikedViewController())
@@ -40,8 +40,10 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         likedVC.navigationItem.title = "Activity"
         likedVC.navigationBar.isTranslucent = false
         likedVC.navigationBar.tintColor = .label
+        homeVC.navigationBar.isTranslucent = false
+        homeVC.navigationBar.tintColor = .label
+
     }
-    
     private func configureControllers() {
         let item1 = homeVC
         let icon1 = UITabBarItem(title: nil, image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
